@@ -1,0 +1,20 @@
+.flex-container {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 8px;
+
+}

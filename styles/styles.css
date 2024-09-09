@@ -6,6 +6,9 @@
 body {
     margin: 0 15%;
     background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .frame-row {
@@ -186,4 +189,8 @@ button {
     justify-content: center;
     align-items: center;
     /* padding: 0px 24px; */
+}
+
+#footer {
+    margin-top: auto;
 }

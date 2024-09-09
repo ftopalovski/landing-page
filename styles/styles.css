@@ -1,3 +1,7 @@
+body {
+    padding: 20px;
+}
+
 .flex-container {
     background-color: #1F2937;
     display: flex;
@@ -7,14 +11,22 @@
     flex: 1;
 }
 
+.nav-section {
+    justify-content: space-evenly;
+}
+
 .navbar {
     display: flex;
     justify-content: center;
 }
 
+/* .logo {
+    display: flex;
+    justify-content: center;
+} */
+
 .navbar a {
     font-size: 18px;
     color: #E5E7EB;
     padding: 8px;
-
 }
